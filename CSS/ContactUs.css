@@ -1,0 +1,44 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .submit-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #00143f; /* Color azul de la marca */
+    color: white;
+    cursor: pointer;
+}
+
+.form-container .submit-button:hover {
+    background-color: #000e2d; /* Un azul más oscuro para hover */
+}
+
+/* Agrega estilos adicionales que necesites */

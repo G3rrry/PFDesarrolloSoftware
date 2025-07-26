@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Analisis</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-weight: bold;">HARINAS ELIZONDO</h1>
+        <img src="data:image/png;base64,{{ img_string }}" alt="logotipo">
+        <h2 style="font-style: italic; font-weight: bold;">Certificado de Analisis</h2>
+    </div>
+    <div style="width: 100%; border: 1px solid black; text-align: center; margin-top: 10px;">
+        <h3 style="font-style: italic;">{{ producto }}</h3>
+    </div>
+        <p style="text-align: center; font-size:18px; font-style: italic;">Solicitado Por:</p>
+    <div style="width: 100%; border: 1px solid black; text-align: center; margin-top: 10px; margin-bottom: 20px;">
+        <h3 style="font-style: italic;">{{ nombrecliente }}</h3>
+    </div>
+    <table style="width: 100%;">
+        <!-- Individual rows for data entries -->
+        <tr><td>NÚMERO DE CERTIFICADO:</td><td>{{ numerocertificado }}</td><td></td><td></td></tr>
+        <tr><td>NÚMERO DE ORDEN:</td><td>{{ numeroorden }}</td><td></td><td></td></tr>
+        <tr><td>CANTIDAD SOLICITADA:</td><td>{{ cantidadsolicitada }}</td><td></td><td></td></tr>
+        <tr><td>DOMICILIO DE ENTREGA:</td><td>{{ domicilio }}</td><td></td><td></td></tr>
+        <tr><td>CANTIDAD ENTREGADA:</td><td>{{ cantidadentregada }}</td><td></td><td></td></tr>
+        <tr><td>NÚMERO DE FACTURA:</td><td>{{ numerofactura }}</td><td></td><td></td></tr>
+        <tr><td>NÚMERO DE LOTE:</td><td>{{ numerolote }}</td><td></td><td></td></tr>
+        <tr><td>FECHA DE PRODUCCIÓN:</td><td>{{ fechaproduccion }}</td><td></td><td></td></tr>
+        <tr><td>FECHA DE CADUCIDAD:</td><td>{{ fechacaducidad }}</td><td></td><td></td></tr>
+        <!-- Alveograph tests -->
+        <tr style='background-color:#DDDDDD'><td>PRUEBAS DE ALVEÓGRAFO</td><td>RESULTADO</td><td>VALORES DE REFERENCIA:</td><td>DESVIACIÓN RESULTANTE</td></tr>
+        <tr><td>Tenacidad</td><td>{{ r_1 }}</td><td>{{ rmin_1 }} - {{ rmax_1 }}</td><td>{{ dr_1 }}</td></tr>
+        <tr><td>Extensibilidad</td><td>{{ r_2 }}</td><td>{{ rmin_2 }} - {{ rmax_2 }}</td><td>{{ dr_2 }}</td></tr>
+        <tr><td>Fuerza Panadera</td><td>{{ r_3 }}</td><td>{{ rmin_3 }} - {{ rmax_3 }}</td><td>{{ dr_3 }}</td></tr>
+        <tr><td>Relación de la Curva</td><td>{{ r_4 }}</td><td>{{ rmin_4 }} - {{ rmax_4 }}</td><td>{{ dr_4 }}</td></tr>
+        <!-- Farinograph tests -->
+        <tr style='background-color:#DDDDDD'><td>PRUEBAS DE FARINÓGRAFO</td><td>RESULTADO</td><td>VALORES DE REFERENCIA:</td><td>DESVIACIÓN RESULTANTE</td></tr>
+        <tr><td>Absorción del Agua</td><td>{{ r_5 }}</td><td>{{ rmin_5 }} - {{ rmax_5 }}</td><td>{{ dr_5 }}</td></tr>
+        <tr><td>Tiempo de Desarrollo de la Masa</td><td>{{ r_6 }}</td><td>{{ rmin_6 }} - {{ rmax_6 }}</td><td>{{ dr_6 }}</td></tr>
+        <tr><td>Estabilidad</td><td>{{ r_7 }}</td><td>{{ rmin_7 }} - {{ rmax_7 }}</td><td>{{ dr_7 }}</td></tr>
+        <tr><td>Grado de Reblandecimiento</td><td>{{ r_8 }}</td><td>{{ rmin_8 }} - {{ rmax_8 }}</td><td>{{ dr_8 }}</td></tr>
+    </table>
+    <div style="text-align: right; margin-top: 40px;">
+        <p>__________________________</p>
+        <p>Responsable</p>
+    </div>
+</body>
+</html>
+

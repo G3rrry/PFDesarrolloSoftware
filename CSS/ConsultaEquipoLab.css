@@ -1,0 +1,81 @@
+.content-container {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+input[type=search] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px; /* Or as required */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.equipment-table th,
+.equipment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.equipment-table th {
+    background-color: #e9e9e9;
+}
+
+.footer-buttons {
+    margin-top: 20px;
+    text-align: center; /* or right if you prefer */
+}
+
+
+.equipment-table td {
+    text-align: center; /* Centers the content of table cells */
+    vertical-align: middle; /* Aligns content in the middle vertically */
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Style for buttons within the table */
+
+
+.search-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 20px;
+    margin: auto; /* Añade un margen automático a todos los lados si es necesario */
+    width: fit-content; /* Asegúrate de que el contenedor solo sea tan ancho como sus hijos */
+}
+
+button {
+    align-self: center;
+}
+
+input[type=search], button {
+    margin: 0;
+}
+
+#search-lab-equip {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 5px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

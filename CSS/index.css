@@ -1,0 +1,72 @@
+/* Estilos para el menú desplegable en el index-container */
+.index-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten según el ancho */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; /* Alineación horizontal de los elementos */
+  margin: 10px; /* Espacio entre los elementos del dropdown */
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00143f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.dropdown-content a:hover {background-color: #00091d;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.module-link {
+  padding: 10px 20px;
+  background-color: white;
+  color: #00143f;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block; /* Asegura que cada enlace sea un bloque para alineación correcta */
+  width: 200px; /* Establece un ancho fijo para todos los módulos */
+  text-align: center; /* Centra el texto dentro del módulo */
+  margin: 10px; /* Espacio entre módulos */
+  box-shadow: 0 4px 6px rgba(0,0,0,.1); /* Sombra para dar profundidad */
+}
+
+.module-link:hover {
+  transform: translateY(-5px);
+  background-color: #e8e8e8;
+}

@@ -1,0 +1,75 @@
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type=search] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.equipment-lab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.equipment-lab-table th,
+.equipment-lab-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.equipment-lab-table th {
+    background-color: #e9e9e9;
+}
+
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.equipment-details {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.equipment-details h2 {
+    margin-bottom: 15px;
+}
+
+.equipment-details p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.equipment-details strong {
+    font-weight: bold;
+}
+
+.form-group label,
+.equipment-details label {
+    margin-right: 10px;
+}
+
+.form-group input[type="text"],
+.equipment-details input[type="text"],
+.equipment-details select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button,
+.equipment-details button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

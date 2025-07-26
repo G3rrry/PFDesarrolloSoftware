@@ -1,0 +1,73 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-alta-equipo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* O el ancho que mejor se acomode a tu diseño */
+  }
+  
+  .form-section label {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+
+  }
+  
+  .form-section input[type="text"],
+  .form-section select,
+  .form-section textarea {
+    padding: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+  }
+  
+  .form-section textarea {
+    height: 100px; /* Ajusta según necesites */
+      font-family: monospace;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #00143f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #000e2d;
+  }
+
+  button {
+    width: 
+    10%;
+    padding: 10px;
+    background-color: #00143f; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: auto; 
+    display: block;
+    font-family: monospace;
+  }
+
+  h1 {
+    font-family: monospace;
+}
+  label{
+    font-family: monospace;
+  }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Harinas Elizondo</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/header&footer.css">
+    <!-- Asegúrate de incluir el CSS correcto para el formulario y la página de contacto -->
+    <link rel="stylesheet" type="text/css" href="../CSS/ContactUs.css">
+</head>
+<header class="header">
+  <div class="nav-container">
+    <a href="index.php" class="logo">
+      <img src="../Imagenes/LogoHeader.png" alt="Logo">
+    </a>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li class="nav-item">
+          <a href="index.php">Índice</a>
+        </li>
+        <!-- Podemos agregar más elementos si es necesario -->
+        <li class="dropdown">
+          <a href="javascript:void(0)">Registros</a>
+          <div class="dropdown-content">
+            <a href="RegistroCliente.php">Registro cliente</a>
+            <a href="RegistroEquipoLab.php">Registro Equipo Laboratorio</a>
+            <a href="RegistroLotes.php">Registro de Lotes</a>
+            <a href="RegistroResultados.php">Registro de Resultados</a>
+            <!-- Otros enlaces de registro -->
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)">Consultas</a>
+          <div class="dropdown-content">
+            <a href="ConsultaEquipoLab.php">Consulta equipo Laboratorio</a>
+            <a href="ConsultaClientes.php">Consulta Clientes</a>
+            <a href="ConsultaLotes.php">Consulta de Lotes</a>
+            <a href="estadisticas.php">Consulta de Estadísticas</a>
+
+
+            <!-- Otros enlaces de consulta -->
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)">Análisis</a>
+          <div class="dropdown-content">
+            <a href="EmisionCertificado.php">Emision de Certifiado</a>
+            <!-- Otros enlaces de consulta -->
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  
+<body>
+    <div class="contact-container">
+        <div class="logo-container">
+            <a href="Index.html">
+                <img src="../Imagenes/Logo-Harinas-Elizondo.png" alt="Logo Harinas Elizondo">
+            </a>
+        </div>
+        <!-- Form box -->
+        <div class="form-container">
+            <form action="RegistroExitoso.html" method=""> <!-- Asegúrate de procesar el formulario adecuadamente -->
+                <!-- General info -->
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Apellidos" required>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                <!-- Query -->
+                <textarea id="query" name="query" placeholder="Tu consulta" required></textarea>
+                <!-- Submit -->
+                <button type="submit" class="submit-button">Enviar</button>
+                <!-- Exit -->
+                <button type="button" class="submit-button" onclick="location.href='index.php'">Volver a la página principal</button>
+            </form>
+        </div>
+    </div>
+    <!-- Si tienes un script de JS específico para contact -->
+    <!-- <script src="../JS/ContactUs.js"></script> -->
+</body>
+</html>

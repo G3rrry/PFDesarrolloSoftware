@@ -1,0 +1,16 @@
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 120%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+label{
+    color: #00143f;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+}
+
